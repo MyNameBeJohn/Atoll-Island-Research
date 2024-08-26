@@ -18,36 +18,36 @@ It is worth noting that width is perpendicular to the motu and length is parrall
 to the motu. 
 - Format of the Inputs File (Replace discriptions with values): 
 - Please note that all slopes must be floats (decimals). If you want a slope of 1 it must be 1.0. Everything else must be a whole number.  
-	offSl = Lenght of off shore deep water area.
-	offSd = Off shore depth.
-	offSlope = Off shore slope leading up to the reef flat.
-	dto = The distance the reef pit is from the ocean. 
-	reefdep = The depth of the reef flat. 
-	rpW = The width of the reef pit. 
-	rpdep = The depth of the reef pit. 
-	rpsl = The slope on either side of the reef pit. 
-	dtm = The distance the reef pit is from the motu. 
-	motuW = The width of the motu.
-	land = The elevation of the land. 
-	mtSlope = The slope from the reef flat leading up to the motu. 
-	lgW = The width of the lagoon. 
-	lgDep = The depth of the lagoon.
-	bckSlope = The slope of the motu going down to the bottom of the lagoon.
-	maxXres = The maximum resolution in X.
-	minXres = The minimum resolution in X.
-	rflatLen = The length of the reef flat. 
-	rpLen = The length of the reef pit. 
-	motuL = The lenght of the motu. 
-	Ymin = Minimum resolution in Y. 
-	Ymax = Maximum resolution in Y.
-	rpRes = The resolution at the reef pit. 
-	motuRes = Resolution at the motu
-	rfRes = The resolution of the entire reef flat. 
-	offshoreRes = The resolution of the off shore area. 
-	lgRes = Resolution of the lagoon.
-	reefslopeRes = Resolution of the reef slope. 
-	motuSlpRes = Resolution of the slope of the motu coming from the reef flat. 
-	backslopeRes = Resolution of the slope behind the motu. 
+	- offSl = Lenght of off shore deep water area.
+	- offSd = Off shore depth.
+	- offSlope = Off shore slope leading up to the reef flat.
+	- dto = The distance the reef pit is from the ocean. 
+	- reefdep = The depth of the reef flat. 
+	- rpW = The width of the reef pit. 
+	- rpdep = The depth of the reef pit. 
+	- rpsl = The slope on either side of the reef pit. 
+	- dtm = The distance the reef pit is from the motu. 
+	- motuW = The width of the motu.
+	- land = The elevation of the land. 
+	- mtSlope = The slope from the reef flat leading up to the motu. 
+	- lgW = The width of the lagoon. 
+	- lgDep = The depth of the lagoon.
+	- bckSlope = The slope of the motu going down to the bottom of the lagoon.
+	- maxXres = The maximum resolution in X.
+	- minXres = The minimum resolution in X.
+	- rflatLen = The length of the reef flat. 
+	- rpLen = The length of the reef pit. 
+	- motuL = The lenght of the motu. 
+	- Ymin = Minimum resolution in Y. 
+	- Ymax = Maximum resolution in Y.
+	- rpRes = The resolution at the reef pit. 
+	- motuRes = Resolution at the motu
+	- rfRes = The resolution of the entire reef flat. 
+	- offshoreRes = The resolution of the off shore area. 
+	- lgRes = Resolution of the lagoon.
+	- reefslopeRes = Resolution of the reef slope. 
+	- motuSlpRes = Resolution of the slope of the motu coming from the reef flat. 
+	- backslopeRes = Resolution of the slope behind the motu. 
 	
 Step 3: 
 Copy and paste the inputs file from step 2, gridCreation1D.py, yGrid.py,
@@ -70,7 +70,7 @@ each feature.
  - Step 4a: 
 	- To run this file open the terminal and type G: or the letter of the drive you are using. G: Will take 
 		you to the G drive.
-	Press enter. 
+	- Press enter. 
 	- Next type cd and then the file path to the folder where the yGrid.py is located. 
 		Example Filepath: cd \Shared drives\Ortiz Atolls Database\Excavation Pits\JConnors_2DReefPit\Model data\Real Grid Creation\ModelFiles>
 		- This will take you to the ModelFiles folder. The last argument in this line should be the name of the folder you want to go to. 
@@ -79,7 +79,7 @@ each feature.
 Step 5: 
 Now take the shape of X and Y that was printed out and open params.txt and fill in the 
 nx and ny spot with 1- number of rows and 1- number of cols. The shape will read rows columns. 
-ROWS is Y, COLUMNS is X. Y is first and X is second. It's wierd. 
+ROWS is Y, COLUMNS is X. Y is first and X is second.
 
 Step 6: 
 Open, but do not run the .bat file. You will see "call ..\..\..\XBeach_Files\xbeach.exe".
@@ -91,11 +91,11 @@ the .bat file in another folder inside the one from step one you will need to ad
 Step 7: 
 Open the jonswap.txt file and put in the desired inputs: 
 	- Each of these numbers requires 4 decimal places. 
-	Hm0		 = Wave Height
-	Tp 		 = Wave Period in seconds
-	mainang  = Wave Angle
-	gammajsp = Enhanment factor (use defualt = 3.3000) 
-	fnyq	 = Highest frequency used
+		- Hm0 = Wave Height
+		- Tp = Wave Period in seconds
+		- mainang  = Wave Angle
+		- gammajsp = Enhanment factor (use defualt = 3.3000) 
+		- fnyq	 = Highest frequency used
 
 Step 8:
 Open the params.txt file and enter all the variable names you want to 
@@ -104,7 +104,7 @@ mannual. Be sure to update the number of variables, nglobalvar, to the
 exact number of variables you have. 
 
 Step 9: 
-With in the params.txt file there are parameters called the xfile, yfile
+Within the params.txt file there are parameters called the xfile, yfile
 depfile, nx, ny, xori and yori. The xfile, yfile and depfile need to be set to the names
 of the .grd files and .dep file, file extensions included. Nx, and ny need to be set to the 
 number of rows and columns minus 1. When you printed out the shape of X and Y the first 
@@ -128,7 +128,7 @@ going to enter. xori and yori are usually 0. They are where the grid originates 
 	
 Step 10: 
 Create another folder within the original one you made in step one. This is the 
-control case foler. Move the createCT.py file into this folder. Copy the .dep file, 
+control case folder. Move the createCT.py file into this folder. Copy the .dep file, 
 both .grd files, the bounds .txt, the Inputs file, the params.txt, jonswap.txt 
 and the .bat file into the new control folder. 
 
