@@ -112,19 +112,19 @@ number is ny and the second one is nx. Be sure to subract one from each number y
 going to enter. xori and yori are usually 0. They are where the grid originates from.
 	
 ***Check In: The files you should have in the folder now:
-	-The inputs file. 
-	- gridCreation1D.py
-	- yGrid.py
-	- createCT.py
-	- ntcdfReader.py
-	- params.txt
-	- jonswap.txt
-	- the .bat file
-	- 4 .txt files 
-		- 3 of these .txts are used in the gridCreation1D.py, do not worry about them. 
-		- The fourth one contains the bounds for the land forms in the model.
-	- 2 .grd files 
-	- 1 .dep file
+- The inputs file.
+- gridCreation1D.py
+- yGrid.py
+- createCT.py
+- ntcdfReader.py
+- params.txt
+- jonswap.txt
+- the .bat file
+- 4 .txt files
+	- 3 of these .txts are used in the gridCreation1D.py, do not worry about them.
+ 	- The fourth one contains the bounds for the land forms in the model.
+  - 2 .grd files
+  - 1 .dep file
 	
 Step 10: 
 Create another folder within the original one you made in step one. This is the 
@@ -144,18 +144,18 @@ This file will generate atleast one grid without a reef pit. For more detailed i
 see the comments within the file. 
 
 ***Check In: The Files in this folder should be: 
-	- The inputs file for the first case.
-	- The inputs file for the Control case.
-	- createCT.py
-	- params.txt
-	- jonswap.txt
-	- the .bat file (You will need to open this an add another ..\ to go up one more directory) 
-	- 4 .txt files 
-		- 3 of these .txts are used in the gridCreation1D.py, do not worry about them. 
-		- The fourth one contains the bounds for the land forms in the model.
-	- 2 .grd files from the original folder. 
-	- 1 .dep file from the original folder. 
-	- 1 or 2 .dep files from generated from the createCT.py run. 
+- The inputs file for the first case.
+- The inputs file for the Control case.
+- createCT.py
+- params.txt
+- jonswap.txt
+- The .bat file (You will need to open this an add another ..\ to go up one more directory)
+- 4 .txt files
+	- 3 of these .txts are used in the gridCreation1D.py, do not worry about them.
+ 	- The fourth one contains the bounds for the land forms in the model.
+  - 2 .grd files from the original folder.
+  - 1 .dep file from the original folder.
+  - 1 or 2 .dep files from generated from the createCT.py run. 
 	
 Step 13: 
 Be sure to change the name of the depfile to the name of the .dep file generated from the createCT.py file. 
