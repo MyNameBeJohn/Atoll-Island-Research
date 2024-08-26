@@ -112,7 +112,7 @@ number is ny and the second one is nx. Be sure to subract one from each number y
 going to enter. xori and yori are usually 0. They are where the grid originates from.
 	
 ***Check In: The files you should have in the folder now:
-	- The inputs file. 
+	-The inputs file. 
 	- gridCreation1D.py
 	- yGrid.py
 	- createCT.py
