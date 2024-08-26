@@ -17,7 +17,8 @@ comments.
 It is worth noting that width is perpendicular to the motu and length is parrallel
 to the motu. 
 - Format of the Inputs File (Replace discriptions with values): 
-- Please note that all slopes must be floats (decimals). If you want a slope of 1 it must be 1.0. Everything else must be a whole number.  
+- Please note that all slopes must be floats (decimals). If you want a slope of 1 it must be 1.0. Everything else must be a whole number.
+- Example Input: Variable Name = Number (please remeber to put spaces surrounding the "=")
 	- offSl = Lenght of off shore deep water area.
 	- offSd = Off shore depth.
 	- offSlope = Off shore slope leading up to the reef flat.
