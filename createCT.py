@@ -60,7 +60,7 @@ class Control:
         ctDepFile = np.savetxt(filename, zCopy, delimiter=' ')     
         return ctDepFile
 
-# The files needed to run this file are: 
+# The files needed to run this code are: 
     #The original .grd files from the yGrid.py run so yGrid.py needs to be run first! 
     #If you have already ran yGrid.py the next files needed are the .dep file 
     #ANOTHER inputs file created for the control case.
