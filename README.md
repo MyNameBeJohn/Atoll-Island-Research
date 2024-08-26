@@ -18,9 +18,12 @@ It is worth noting that width is perpendicular to the motu and length is parrall
 to the motu. 
 - Format of the Inputs File (Replace discriptions with values): 
 - Please note that all slopes must be floats (decimals). If you want a slope of 1 it must be 1.0. Everything else must be a whole number.  
-	offSl = Lenght of off shore deep water area. 
-	offSd = Off shore depth. 
-	offSlope = Off shore slope leading up to the reef flat. 
+	offSl = Lenght of off shore deep water area.
+ 
+	offSd = Off shore depth.
+
+	offSlope = Off shore slope leading up to the reef flat.
+
 	dto = The distance the reef pit is from the ocean. 
 	reefdep = The depth of the reef flat. 
 	rpW = The width of the reef pit. 
