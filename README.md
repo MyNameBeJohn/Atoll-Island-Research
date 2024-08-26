@@ -123,8 +123,8 @@ going to enter. xori and yori are usually 0. They are where the grid originates 
 - 4 .txt files
 	- 3 of these .txts are used in the gridCreation1D.py, do not worry about them.
  	- The fourth one contains the bounds for the land forms in the model.
-  - 2 .grd files
-  - 1 .dep file
+- 2 .grd files
+- 1 .dep file
 	
 Step 10: 
 Create another folder within the original one you made in step one. This is the 
@@ -153,9 +153,9 @@ see the comments within the file.
 - 4 .txt files
 	- 3 of these .txts are used in the gridCreation1D.py, do not worry about them.
  	- The fourth one contains the bounds for the land forms in the model.
-  - 2 .grd files from the original folder.
-  - 1 .dep file from the original folder.
-  - 1 or 2 .dep files from generated from the createCT.py run. 
+- 2 .grd files from the original folder.
+- 1 .dep file from the original folder.
+- 1 or 2 .dep files from generated from the createCT.py run. 
 	
 Step 13: 
 Be sure to change the name of the depfile to the name of the .dep file generated from the createCT.py file. 
