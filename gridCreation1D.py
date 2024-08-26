@@ -45,7 +45,7 @@ class XZgrid:
             x1 = x2
             Xslope.append(x2)
             Yslope.append(y2)
-        return Xslope, Yslope, x2
+        return Xslope, Yslope
 
     def resolution(self, start, distance, res): #Tells the function when there should be a point on the graph. <-Fix
         points = np.arange(start, distance, res) 
@@ -60,7 +60,7 @@ class XZgrid:
         return X, Z, origin
     
     def conSlope(self, X, Z, dep1, dep2, slope, resInd, origin):
-        Xslope, Yslope, x2 = self.line(dep1, dep2, slope, resInd, origin) #i is the resolution index
+        Xslope, Yslope = self.line(dep1, dep2, slope, resInd, origin) #i is the resolution index
         X = np.concatenate([X, Xslope])
         Z = np.concatenate([Z, Yslope])
         origin = Xslope[len(Xslope) - 1]
