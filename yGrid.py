@@ -21,7 +21,6 @@ class Ygrid: #Creates the 2D grid
         
         data = pd.read_csv(filename, delimiter= ' ', header = None)
         self.inputs = np.reshape(data[2].to_numpy(), (data[2].to_numpy().shape[0], 1))
-
         self.Xdata = self.inputs[:17]
         Xres = self.inputs[22:]
         self.Xdata = np.concatenate([self.Xdata, Xres])
